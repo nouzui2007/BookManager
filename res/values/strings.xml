@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BookList!</string>
+    <string name="app_name">BookManager</string>
+<string name="menu_addnew">Add New Book</string>
+<string name="menu_delete">Delete</string>
+<string name="menu_edit">Edit</string>
+<string name="book_editor_ok">OK</string>
+<string name="book_editor_cancel">Cancel</string>
+<string name="title_description"></string>
+<string name="auther_description"></string>
+<string name="title_caption">Title</string>
+<string name="auther_caption">Auther</string>
+<string name="last_num_caption">Volume</string>
+</resources>

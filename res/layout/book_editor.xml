@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_caption" android:id="@+id/TitleCaption"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/BookTitle" android:text="@string/title_description"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/AutherCaption" android:text="@string/auther_caption"></TextView><EditText android:text="@string/auther_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/Auther"></EditText><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_num_caption"></TextView><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="match_parent" android:layout_height="wrap_content"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ButtonMinus" android:text="-"></Button>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:id="@+id/Volume"></EditText><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:id="@+id/ButtonPlus"></Button>
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="match_parent" android:layout_width="match_parent"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ButtonOK" android:text="@string/book_editor_ok"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:id="@+id/ButtonCancel" android:text="@string/book_editor_cancel"></Button>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
